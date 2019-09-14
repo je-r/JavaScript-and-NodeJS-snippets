@@ -4,4 +4,4 @@ node index.js
 
 2) browse:
 
-open in a web browser: http://localhost:3000/ 
+open in a web browser: http://localhost:3000/test.html 
