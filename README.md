@@ -1,5 +1,4 @@
 # JavaScript-and-NodeJS-snippets
 
-JavaScript and node.js
+JavaScript and node.js snippets that might be useful 
 
-snippets that might be useful 
