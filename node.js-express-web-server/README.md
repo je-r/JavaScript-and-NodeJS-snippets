@@ -1,3 +1,5 @@
+FINISHED, FUNCTIONAL!
+
 1) start:
 
 node index.js
