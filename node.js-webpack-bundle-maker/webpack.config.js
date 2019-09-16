@@ -1,7 +1,7 @@
 // TODO 
 
 const config = {
-  entry: './src/index.js',
+  entry: './test.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
