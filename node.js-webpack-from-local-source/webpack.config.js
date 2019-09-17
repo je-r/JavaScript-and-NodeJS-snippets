@@ -1,7 +1,8 @@
 const config = {
   mode: 'development',
   entry: {
-    main:'./test.js'
+    main:'./test.js',
+    someOther: './other.js'
   },
   
   devtool:"inline-source-map",
