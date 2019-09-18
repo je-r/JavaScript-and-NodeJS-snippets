@@ -1,15 +1,15 @@
 const config = {
   mode: 'development',
-  entry: {
-    main:'./test.js',
-    someOther: './other.js'
-  },
   
-  devtool:"inline-source-map",
-
+  entry: {
+    'bundle.js': [
+      path.resolve(__dirname, './test.js'),
+      path.resolve(__dirname, './other.js')
+    ]
+  },
   output: {
+    filename: '[name]',
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
   }
 }
 
