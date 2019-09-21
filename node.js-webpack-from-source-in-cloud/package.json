@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "dependencies": {
+    "lodash": "latest",
     "@babel/core": "7.x.x",
     "@babel/preset-env": "7.x.x",
     "@babel/preset-react": "7.x.x",

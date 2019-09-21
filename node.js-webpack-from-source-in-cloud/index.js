@@ -4,7 +4,7 @@ const path = require('path');
 const config = require('./webpack.config.js');
 const compiler = webpack(config);
 
-// TODO download from cloud + discover depenedencies 
+// purpose: download from cloud + discover depenedencies 
 
 //infos about running webpack compiler: https://webpack.js.org/api/node/
 
