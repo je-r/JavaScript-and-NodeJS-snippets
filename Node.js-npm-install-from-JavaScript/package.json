@@ -1,0 +1,7 @@
+{
+  "name": "Node.js-npm-install-from-JavaScript",
+  "version": "1.0.0",
+  "dependencies": {
+      "npm": "latest"
+  }
+}
