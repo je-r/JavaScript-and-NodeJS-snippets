@@ -6,11 +6,19 @@ npm.load(function(err) {
   console.log("npm loaded");
   console.log("err="+err);
 
+console.log("npm.cache ="+ npm.cache );
+
+npm.cache = __dirname+"/.npm";
+
+console.log("npm.cache ="+ npm.cache );
+
+
   // install module ffi
   npm.commands.install(['ffi'], function(er, data) {
     // log errors or data
     console.error(er);
   });
+  
   
 
   npm.on('log', function(message) {
