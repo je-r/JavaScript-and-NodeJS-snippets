@@ -1,10 +1,10 @@
 //
 
-class Chese 
+class Cheese 
 {
     constructor()
     {
-        comsole.log("Cheese class: in constructor");
+        console.log("Cheese class: in constructor");
     }
 }
 
