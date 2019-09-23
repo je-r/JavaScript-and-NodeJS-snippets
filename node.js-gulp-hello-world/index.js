@@ -1,3 +1,7 @@
 var gulp = require('gulp');
 
-// TOD : call "gulp hello" programmatically
+require('./gulpfile');
+
+// calling "gulp hello" programmatically
+
+gulp.series("hello")();
