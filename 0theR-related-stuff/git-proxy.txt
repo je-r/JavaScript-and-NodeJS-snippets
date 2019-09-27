@@ -1,0 +1,11 @@
+unset proxy:
+
+git config --global --unset-all http.proxy
+
+set proxy:
+
+git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+
+ask what is current proxy?
+
+git config --global --get http.proxy
