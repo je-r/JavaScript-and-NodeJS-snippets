@@ -1,0 +1,7 @@
+in Windows 10, to set path (sometimes works without /M):
+
+setx /M PATH "%PATH%;<your-new-path>"
+
+for example:
+
+setx  PATH "%PATH%;C:\Users\userName\nodejs"
