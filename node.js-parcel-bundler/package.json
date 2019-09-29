@@ -1,5 +1,5 @@
 {
-  "name": "parcel-bunder-hello-world",
+  "name": "parcel-bundler-hello-world",
   "version": "1.0.0",
   "dependencies": {
     "parcel-bundler": "latest",
