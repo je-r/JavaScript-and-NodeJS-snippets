@@ -1,1 +1,8 @@
-{}
+{
+  "name": "parcel-bunder-hello-world",
+  "version": "1.0.0",
+  "dependencies": {
+    "parcel-bundler": "latest",
+    "parcel-plugin-static-files-copy": "latest"
+  }
+}
