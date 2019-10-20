@@ -15,9 +15,27 @@ var gulp = require('gulp'),
     sass = require('gulp-sass');
 
     var paths = {
-        jsRoot: './Scripts/js/',
-        tsOutput: './Scripts/js/main/',
-        jsWebAppSource: [ './Scripts/js/main/main.js', './Scripts/js/vendor/vendor.js' ]
+       jsRoot: "./Scripts/js/",
+       jsOutput: './Scripts/js/main/'
     };    
 
+    gulp.task("clean-js", function (done) {
+        rimraf(paths.jsOutput, done);
+        done();
+    });
+
+    gulp.task('merge-js', function (done) {
+
+        var jsResult = gulp.src(paths.jsRoot + "*.js")
+
+        merge([
+            jsResult
+                .pipe(gulp.dest(paths.jsOutput))
+        ]);
     
+        done();
+    });
+
+    gulp.task('distribute-scripts', gulp.series('clean-js', 'merge-js'));
+
+
