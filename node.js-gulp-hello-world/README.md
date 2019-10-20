@@ -11,3 +11,9 @@ usage from command line:
 (but before that you have to install gulp: 
     sudo npm install --global gulp
 )
+
+
+3) cleanup:
+
+cd node.js-gulp-hello-world
+rm -r -f node_files
