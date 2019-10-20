@@ -1,3 +1,5 @@
+var path = require("path");
+
 const config = {
   mode: 'development',
   
