@@ -12,7 +12,6 @@ usage from command line:
     sudo npm install --global gulp
 )
 
-
 3) cleanup:
 
 cd node.js-gulp-hello-world
