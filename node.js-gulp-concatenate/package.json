@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "gulp": "latest",
-    "gulp-concat": "latest"
+    "gulp-concat": "latest",
+    "rimraf": "latest"
   }
 }
