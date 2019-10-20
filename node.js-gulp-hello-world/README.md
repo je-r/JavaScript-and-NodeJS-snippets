@@ -16,4 +16,5 @@ usage from command line:
 3) cleanup:
 
 cd node.js-gulp-hello-world
+
 rm -r -f node_files

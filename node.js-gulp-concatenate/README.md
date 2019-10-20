@@ -15,5 +15,7 @@ usage from command line:
 3) cleanup:
 
 cd node.js-gulp-concatenate
+
 rm -r -f node_files
+
 rm -r -f build
