@@ -1,0 +1,8 @@
+{
+  "name": "text2PNGtesting",
+  "version": "1.0.0",
+  "dependencies": {
+    "text-to-picture": "latest",
+    "jimp": "latest"
+  }
+}
