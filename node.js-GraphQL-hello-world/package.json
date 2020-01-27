@@ -2,6 +2,6 @@
     "name": "graphql",
     "version": "1.0.0",
     "dependencies": {
-      "graphql": "latest"
+        "graphql": "latest"
     }
 }
