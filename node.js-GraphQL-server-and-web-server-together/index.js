@@ -16,4 +16,11 @@ app.use('/graphql', graphqlHTTP({
   rootValue: root,
   graphiql: true,
 }));
-app.listen(4000, () => console.log('Now browse to localhost:4000/graphql'));
+
+var webRouter = express.Router()
+webRouter.get("/",function(req,res) {
+  res.send("<html><body><h1>hello there!</h1></body><html>");
+});
+app.use("/web",webRouter);
+
+app.listen(4000, () => console.log('Now browse to localhost:4000/graphql or to localhost:4000/web' ));

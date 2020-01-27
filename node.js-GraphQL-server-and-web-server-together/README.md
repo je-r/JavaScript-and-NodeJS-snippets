@@ -19,4 +19,7 @@ lines that start with "#" as these are merely comments
 
 3.3) press "Play" (>) button and observe result of the web service call
 
+3.4) open in browser URL: http://localhost:4000/web
+and observe "hello there!" in HTML directly
+
 (note: Facebook employees internally use *.graphql extension themselves)

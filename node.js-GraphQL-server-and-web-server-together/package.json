@@ -2,8 +2,8 @@
     "name": "graphql",
     "version": "1.0.0",
     "dependencies": {
-        "express": "latest", 
-        "express-graphql": "latest", 
+        "express": "latest",
+        "express-graphql": "latest",
         "graphql": "latest"
     }
 }
