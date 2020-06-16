@@ -16,14 +16,22 @@ const app = express();
 
 app.get('/', function (req, res) {    
   res.set('Content-Type', 'text/html');
-  var htmlCode = "test page, v1, loaded at " + new Date();
+  var htmlCode = "test page, v2, loaded at " + new Date();
  
-  pool.query('SELECT * FROM tableName', (error, results) => 
+  pool.query(
+    "SELECT * FROM tableName order "+
+    "by fieldName1 desc "+
+    "limit 1000",(error, results) => 
     {
       if (error) {
             throw error
       }
-      htmlCode += ""+ results.rows;
+      htmlCode += "<br>row count: "+ results.rows.length;
+      var rowsAsHTML = results.rows.map(row => 
+      "<br>"+ row.fieldName1.toJSON()+
+      ";"+row.fieldName2+
+      ";"+row.fieldName3);
+      htmlCode += rowsAsHTML;
       res.send(htmlCode);
     });
 }); // app.get('/',.....)
