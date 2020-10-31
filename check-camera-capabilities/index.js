@@ -5,3 +5,8 @@ var stream = await navigator.mediaDevices.getUserMedia({video:{}});
 const [track] = stream.getVideoTracks();
 track.getCapabilities();
 // and now you can click on the object and expand it to see the values!
+// ...
+// you can also write it to variable and read specific ones, for example:
+const c = track.getCapabilities();
+c.width;
+c.height;
