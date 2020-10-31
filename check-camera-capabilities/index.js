@@ -10,3 +10,7 @@ track.getCapabilities();
 const c = track.getCapabilities();
 c.width;
 c.height;
+// same for settings
+s = track.getSettings();
+s.width;
+s.height;
