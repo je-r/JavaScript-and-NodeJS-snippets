@@ -30,15 +30,16 @@ loadjscssfile("_layouts/15/SP.RequestExecutor.js","js");
 
 // step 4
 
-var siteUrl = "/sites/someExistingSite";
+var siteUrl = "/sites/someExistingSite"; // or "/" if you are at root like something.sharepoint.com/ 
 var ctx = new SP.ClientContext(siteUrl);
 
-// step 4
+// step 5
 
+var listInfo;
 
 function onQuerySucceeded() {
 
-    var listInfo = '';
+    listInfo = '';
 
     var listEnumerator = collList.getEnumerator();
 
@@ -65,7 +66,12 @@ function retrieveAllListProperties() {
 }
 
 
-// step 4
+// step 6
 
 retrieveAllListProperties();
+
+
+// step 7
+
+listInfo  // and press enter 
 
