@@ -23,9 +23,10 @@ loadjscssfile("_layouts/15/MicrosoftAjax.js","js");
 
 // step 3
 
-loadjscssfile("_layouts/sp.core.js","js");
-loadjscssfile("_layouts/sp.runtime.js","js");
-loadjscssfile("_layouts/sp.js","js");
+loadjscssfile("_layouts/15/sp.core.js","js");
+loadjscssfile("_layouts/15/sp.runtime.js","js");
+loadjscssfile("_layouts/15/sp.js","js");
+loadjscssfile("_layouts/15/SP.RequestExecutor.js","js");
 
 // step 4
 
