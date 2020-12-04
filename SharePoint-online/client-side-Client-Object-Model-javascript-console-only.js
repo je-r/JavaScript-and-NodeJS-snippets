@@ -73,5 +73,7 @@ retrieveAllListProperties();
 
 // step 7
 
+// as console.log() not always work, this shows the list of all lists
+
 listInfo  // and press enter 
 
