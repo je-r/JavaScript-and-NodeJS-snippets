@@ -1,0 +1,9 @@
+{
+  "name": "azure",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@azure/event-hubs" : "latest"
+  },
+  "devDependencies": {}
+}
